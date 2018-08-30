@@ -8,7 +8,7 @@ var session = require("express-session");
 var passport = require("./config/passport");
 
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 4004;
 
 var giantBombKey = process.env.GIANTBOMB_KEY;
 var steamKey = process.env.STEAM_SECRET;
